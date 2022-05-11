@@ -88,7 +88,7 @@ def main():
     while True:
         run_game()
 
-        run_again = input("If you want to play again, type: 'tak': ")
+        run_again = input("If you want to play again, type: 'yes': ")
 
         if run_again != 'yes':
             break
